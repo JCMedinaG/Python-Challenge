@@ -1,29 +1,10 @@
-
-
-## Background
-
-Well... you've made it!
-
-It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll be using the concepts you've learned to complete **2** Python Challenges, PyBank and PyPoll.
-Both of these challenges encompasses a real-world situation where your newfound Python scripting skills can come in handy. These challenges are far from easy so expect some hard work ahead!
-
-### Before You Begin
-
-1. Create a new GitHub repo called `python-challenge`. Then, clone it to your computer.
-
-2. Inside your local git repository, create a directory for both of the  Python Challenges. Use folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
-
-3. Inside of each folder that you just created, add a new file called `main.py`. This will be the main script to run for each analysis.
-
-4. Push the above changes to GitHub.
-
 ## PyBank
 
 ![Revenue](Images/revenue-per-lead.jpg)
 
-* In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
+* Using this dataset [budget_data.csv](PyBank/Resources/budget_data.csv) Create:
 
-* Your task is to create a Python script that analyzes the records to calculate each of the following:
+* Create a Python script that analyzes the records to calculate each of the following:
 
   * The total number of months included in the dataset
 
@@ -47,15 +28,13 @@ Both of these challenges encompasses a real-world situation where your newfound 
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
 
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 ## PyPoll
 
 ![Vote-Counting](Images/Vote_counting.jpg)
 
-* In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
-* You will be give a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
+* The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. [election_data.csv](PyPoll/Resources/election_data.csv). The challenge is to find:
 
   * The total number of votes cast
 
